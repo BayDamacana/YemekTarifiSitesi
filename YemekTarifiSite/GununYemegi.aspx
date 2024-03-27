@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style4 {
-            width: 100%;
+            width: 112%;
         }
         .auto-style5 {
             height: 20px;
@@ -10,7 +10,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:DataList ID="DataList2" runat="server">
+    <asp:DataList ID="DataList2" runat="server" style="margin-right: 37px">
         <ItemTemplate>
             <table class="auto-style4">
                 <tr>
