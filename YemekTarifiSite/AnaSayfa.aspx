@@ -17,7 +17,7 @@
                     <td style="background-color: #00FFFF">
 
 
-                     <a href="YemekDetay.aspx?Yemekid=8">   <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #00FFFF; color: #000000;" Text='<%# Eval("YemekAd") %>'></asp:Label></a>
+                     <a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>">   <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #00FFFF; color: #000000;" Text='<%# Eval("YemekAd") %>'></asp:Label></a>
                     
                     
                     </td>
