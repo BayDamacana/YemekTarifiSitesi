@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style4 {
-            width: 100%;
+            width: 107%;
         }
         .auto-style5 {
             height: 26px;
@@ -10,12 +10,12 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:DataList ID="DataList2" runat="server" Width="446px">
+    <asp:DataList ID="DataList2" runat="server" Width="418px">
         <ItemTemplate>
             <table class="auto-style4">
                 <tr>
-                    <td style="background-color: #33CCCC">
-                        <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #FF9900" Text='<%# Eval("YemekAd") %>'></asp:Label>
+                    <td style="background-color: #99FF66">
+                        <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #FFFFFF; color: #00FFFF;" Text='<%# Eval("YemekAd") %>'></asp:Label>
                     </td>
                 </tr>
                 <tr>
