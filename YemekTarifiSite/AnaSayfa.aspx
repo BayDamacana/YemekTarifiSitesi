@@ -10,12 +10,16 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:DataList ID="DataList2" runat="server" Width="418px">
+    S<asp:DataList ID="DataList2" runat="server" Width="358px">
         <ItemTemplate>
             <table class="auto-style4">
                 <tr>
-                    <td style="background-color: #99FF66">
-                        <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #FFFFFF; color: #00FFFF;" Text='<%# Eval("YemekAd") %>'></asp:Label>
+                    <td style="background-color: #00FFFF">
+
+
+                     <a href="YemekDetay.aspx?Yemekid=8">   <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #00FFFF; color: #000000;" Text='<%# Eval("YemekAd") %>'></asp:Label></a>
+                    
+                    
                     </td>
                 </tr>
                 <tr>
@@ -29,9 +33,9 @@
                 </tr>
                 <tr>
                     <td class="auto-style5">&nbsp;Eklenme Tarihi:
-                        <asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekTarih") %>'></asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekTarih") %>' style="color: #336600"></asp:Label>
                         &nbsp; - Puan:
-                        <asp:Label ID="Label7" runat="server" style="font-style: italic" Text='<%# Eval("YemekPuan") %>'></asp:Label>
+                        <asp:Label ID="Label7" runat="server" style="font-style: italic; color: #336600;" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                     </td>
                 </tr>
                 <tr>

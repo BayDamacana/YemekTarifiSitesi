@@ -52,7 +52,7 @@
                 </ItemTemplate>
             </asp:DataList>
             </div>
-            <div style="width:auto; float:left; height:auto; margin-left:50px; color: #CCFFFF; background-color: #33CCCC;">
+            <div style="width:431px; float:left; height:auto; margin-left:50px; color: #CCFFFF; background-color: #33CCCC;">
                 &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
