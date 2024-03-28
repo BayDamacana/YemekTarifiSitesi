@@ -63,7 +63,7 @@
     <tr>
         <td class="auto-style5">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
         <td class="auto-style5">
-            <asp:Button ID="BtnTarifOner" runat="server" BackColor="#0033CC" style="color: #66FFFF; font-weight: 700" Text="EKLE" Width="200px" />
+            <asp:Button ID="BtnTarifOner" runat="server" BackColor="#0033CC" style="color: #66FFFF; font-weight: 700" Text="EKLE" Width="200px" OnClick="BtnTarifOner_Click" />
         </td>
     </tr>
 </table>
