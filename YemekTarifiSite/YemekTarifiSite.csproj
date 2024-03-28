@@ -146,6 +146,7 @@
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
     <Content Include="resimler\iskender.jpg" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
