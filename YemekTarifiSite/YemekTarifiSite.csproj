@@ -90,6 +90,7 @@
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Kullanici.css" />
     <Content Include="YemekDetay.aspx" />
   </ItemGroup>
   <ItemGroup>
