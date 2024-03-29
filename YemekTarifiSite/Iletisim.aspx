@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
     .auto-style4 {
-        width: 100%;
+        width: 97%;
     }
     .auto-style5 {
         text-align: center;
@@ -27,31 +27,31 @@
     <tr>
         <td class="auto-style6">Ad Soyad:</td>
         <td>
-            <asp:TextBox ID="TextBox1" runat="server" Width="292px"></asp:TextBox>
+            <asp:TextBox ID="TxtGonderen" runat="server" Width="292px"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style6">Mail:</td>
         <td>
-            <asp:TextBox ID="TextBox2" runat="server" Width="291px"></asp:TextBox>
+            <asp:TextBox ID="TxtPosta" runat="server" Width="291px"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style6">Konu:</td>
         <td>
-            <asp:TextBox ID="TextBox3" runat="server" Width="291px"></asp:TextBox>
+            <asp:TextBox ID="TxtKonu" runat="server" Width="291px"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style6">Mesaj:</td>
         <td>
-            <asp:TextBox ID="TextBox4" runat="server" Height="84px" TextMode="MultiLine" Width="292px"></asp:TextBox>
+            <asp:TextBox ID="TxtMesaj" runat="server" Height="84px" TextMode="MultiLine" Width="292px"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td>&nbsp;</td>
         <td>
-            <asp:Button ID="Button2" runat="server" CssClass="auto-style7" Height="43px" Text="GÖNDER" Width="190px" />
+            <asp:Button ID="Button2" runat="server" CssClass="auto-style7" Height="43px" Text="GÖNDER" Width="190px" OnClick="Button2_Click" />
         </td>
     </tr>
 </table>
