@@ -93,6 +93,8 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kullanici.css" />
     <Content Include="resimler\mamut.jpg" />
+    <Content Include="resimler\uçak.jpg" />
+    <Content Include="resimler\yenet.png" />
     <Content Include="YemekDetay.aspx" />
   </ItemGroup>
   <ItemGroup>
