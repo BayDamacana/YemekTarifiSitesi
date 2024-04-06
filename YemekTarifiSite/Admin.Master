@@ -17,6 +17,7 @@
         }
         .auto-style5 {
             width: 100%;
+            background-color: #66FF33;
         }
         .auto-style6 {
             text-decoration: underline;
@@ -39,6 +40,19 @@
         .auto-style9 {
             background-color: #00FF00;
         }
+        .auto-style10 {
+            width: 700px;
+            height: auto;
+        }
+        .auto-style11 {
+            background-color: #66FF33;
+        }
+        .auto-style12 {
+            width: 194px;
+            color: #000000;
+            background-color: #66FF66;
+            height: 27px;
+        }
     </style>
 </head>
 <body style="text-align: left">
@@ -50,8 +64,8 @@
            
         </div>
         <div style="margin-left:300px; width:700px; height:20px;">&nbsp</div>
-        <div style="margin-left:300px; width:700px; height:auto;">
-            <div style="width:200px; float:left; height:auto; color: #CCFFFF; background-color: #33CCCC;">
+        <div style="margin-left:300px; " class="auto-style10">
+            <div style="width:200px; float:left; height:auto; color: #CCFFFF; " class="auto-style11">
                 <table class="auto-style5">
                     <tr>
                         <td class="auto-style6"><strong><em>MENÜLER</em></strong></td>
@@ -60,25 +74,25 @@
                         <td class="auto-style7"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>Kategoriler</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Kategoriler.aspx"> Kategoriler</a></strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>Yemekler</strong></em></td>
+                        <td class="auto-style12"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Yemekler</strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>Yorumlar</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Yorumlar</strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>İletişim</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">İletişim</strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>Günün Yemeği</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Günün Yemeği</strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>Öneriler</strong></em></td>
+                        <td class="auto-style12"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Öneriler</strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong>Hakkımızda</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Hakkımızda</strong></em></td>
                     </tr>
                 </table>
             <br />
