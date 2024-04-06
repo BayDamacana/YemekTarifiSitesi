@@ -109,13 +109,13 @@
             <tr>
                 <td class="auto-style24">KATEGORİ RESİM</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style24">&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button5" runat="server" CssClass="auto-style25" Text="EKLE" />
+                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style25" OnClick="BtnEkle_Click" Text="EKLE" />
                 </td>
             </tr>
         </table>
