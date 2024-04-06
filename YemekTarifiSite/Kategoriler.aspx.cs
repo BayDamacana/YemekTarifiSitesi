@@ -11,12 +11,28 @@ namespace YemekTarifiSite
     public partial class Kategoriler : System.Web.UI.Page
     {
         sqlsinif bgl = new sqlsinif();
+        string id = "";
+        string islem = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Page.IsPostBack == false)
+            {
+                id = Request.QueryString["Kategoriid"];
+                islem = Request.QueryString["islem"];   
+            }
             SqlCommand komut = new SqlCommand("SELECT * FROM Tbl_Katagoriler", bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();   
             DataList1.DataSource = dr;
             DataList1.DataBind();
+
+            //Silme İşlemi
+            if(islem == "sil")
+            {
+                SqlCommand komutsil = new SqlCommand("DELETE FROM Tbl_Katagoriler WHERE Kategoriid=@p1", bgl.baglanti());
+                komutsil.Parameters.AddWithValue("@p1", id);
+                komutsil.ExecuteNonQuery() ;
+                bgl.baglanti().Close();
+            }
 
             Panel2.Visible = false;
             Panel5.Visible = false;
