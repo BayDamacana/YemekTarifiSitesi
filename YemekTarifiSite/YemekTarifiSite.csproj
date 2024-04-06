@@ -91,6 +91,9 @@
     <Content Include="Admin.aspx" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="KategoriDuzen.aspx">
+      <BrowseToURL>~/KategoriAdminDetay.aspx</BrowseToURL>
+    </Content>
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanici.css" />
@@ -147,6 +150,13 @@
     </Compile>
     <Compile Include="Iletisim.aspx.designer.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriDuzen.aspx.cs">
+      <DependentUpon>KategoriDuzen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDuzen.aspx.designer.cs">
+      <DependentUpon>KategoriDuzen.aspx</DependentUpon>
     </Compile>
     <Compile Include="KategoriDetay.aspx.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>
