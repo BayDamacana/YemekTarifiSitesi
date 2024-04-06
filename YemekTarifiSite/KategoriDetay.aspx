@@ -8,12 +8,16 @@
         .auto-style5 {
             height: 26px;
         }
+        .auto-style6 {
+            width: 398px;
+            height: 143px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:DataList ID="DataList2" runat="server" Width="358px">
     <ItemTemplate>
-        <table class="auto-style4">
+        <table class="auto-style6">
             <tr>
                 <td style="background-color: #00FFFF"><a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>">
                     <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large; background-color: #00FFFF; color: #000000;" Text='<%# Eval("YemekAd") %>'></asp:Label>

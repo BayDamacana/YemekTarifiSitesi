@@ -13,10 +13,14 @@
     .auto-style7 {
         margin-left: 52px;
     }
-</style>
+        .auto-style8 {
+            width: 423px;
+            height: 143px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table class="auto-style4">
+    <table class="auto-style8">
     <tr>
         <td class="auto-style5" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MESAJ PANELİ&nbsp;</td>
     </tr>

@@ -7,10 +7,14 @@
         .auto-style5 {
             height: 20px;
         }
+        .auto-style6 {
+            width: 408px;
+            height: 143px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:DataList ID="DataList2" runat="server" style="margin-right: 37px">
+    <asp:DataList ID="DataList2" runat="server" style="margin-right: 37px" Width="340px">
         <ItemTemplate>
             <table class="auto-style4">
                 <tr>
@@ -29,7 +33,7 @@
                 </tr>
                 <tr>
                     <td>
-                        &nbsp; TARİF:<br /> &nbsp;<asp:Label ID="Label10" runat="server" Text='<%# Eval("GununYemegiTarif") %>'></asp:Label>
+                        &nbsp; TARİF:<br /> <asp:Label ID="Label10" runat="server" Text='<%# Eval("GununYemegiTarif") %>'></asp:Label>
                     </td>
                 </tr>
                 <tr>

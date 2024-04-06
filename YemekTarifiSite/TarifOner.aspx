@@ -16,10 +16,14 @@
         .auto-style7 {
             text-align: right;
         }
+        .auto-style8 {
+            height: 407px;
+            width: 0px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table class="auto-style4">
+    <table class="auto-style8">
     <tr>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -39,13 +43,13 @@
     <tr>
         <td class="auto-style6">Hazırlanışı:</td>
         <td class="auto-style5">
-            <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="251px"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style6">RESİM:</td>
         <td class="auto-style5">
-            <asp:FileUpload ID="FileUpload1" runat="server" Width="300px" />
+            <asp:FileUpload ID="FileUpload1" runat="server" Width="257px" />
         </td>
     </tr>
     <tr>
