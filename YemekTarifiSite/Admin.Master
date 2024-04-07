@@ -77,7 +77,7 @@
                         <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Kategoriler.aspx"> Kategoriler</a></strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style12"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Yemekler</strong></em></td>
+                        <td class="auto-style12"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Yemekler.aspx">Yemekler</a></strong></em></td>
                     </tr>
                     <tr>
                         <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Yorumlar</strong></em></td>
