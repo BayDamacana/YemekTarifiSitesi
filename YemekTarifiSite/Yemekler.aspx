@@ -35,21 +35,18 @@
         .auto-style23 {
             background-color: #999999;
         }
-        .auto-style24 {
-            color: #000000;
-        }
+        .auto-style26 {
+        width: 142px;
+    }
+    .auto-style27 {
+        color: #000000;
+        width: 142px;
+    }
         .auto-style25 {
             border: 2px solid #777;
             border-radius: 10px;
             outline: none;
             font-size: 12pt;
-        }
-        .auto-style26 {
-            width: 142px;
-        }
-        .auto-style27 {
-            color: #000000;
-            width: 142px;
         }
     </style>
 </asp:Content>
@@ -108,21 +105,34 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style27">KATEGORİ AD</td>
+                <td class="auto-style27">YEMEK AD</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="215px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style27">KATEGORİ RESİM</td>
+                <td class="auto-style27">MALZEMELER</td>
                 <td>
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style27">TARİF</td>
                 <td>
-                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style25" Text="EKLE" />
+                    <asp:TextBox ID="TextBox3" runat="server" Height="117px" TextMode="MultiLine"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style27">KATEGORİ</td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="223px">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+                <td>
+                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style25" Text="EKLE" Width="142px" />
                 </td>
             </tr>
         </table>
