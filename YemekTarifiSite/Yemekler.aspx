@@ -132,7 +132,7 @@
             <tr>
                 <td class="auto-style27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
                 <td>
-                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style25" Text="EKLE" Width="142px" />
+                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style25" Text="EKLE" Width="142px" OnClick="BtnEkle_Click" />
                 </td>
             </tr>
         </table>

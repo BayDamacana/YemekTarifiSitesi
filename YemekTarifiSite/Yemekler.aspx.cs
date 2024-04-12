@@ -26,7 +26,7 @@ namespace YemekTarifiSite
 
 
             //KATEGORİ LİSTESİ
-            SqlCommand komut2 = new SqlCommand("SELECT * FROM Tbl_Kategoriler", bgl.baglanti());
+            SqlCommand komut2 = new SqlCommand("SELECT * FROM Tbl_Katagoriler", bgl.baglanti());
             SqlDataReader dr2 = komut2.ExecuteReader();
 
             DropDownList1.DataTextField = "KategoriAd";
@@ -56,6 +56,17 @@ namespace YemekTarifiSite
         protected void Button4_Click(object sender, EventArgs e)
         {
             Panel5.Visible=!false;
+        }
+
+        protected void BtnEkle_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut3 = new SqlCommand("INSERT INTO Tbl_Yemekler (YemekAd, YemekMalzeme, YemekTarif, Kategoriid) VALUES (@p1, @p2, @p3, @p4)", bgl.baglanti());
+            komut3.Parameters.AddWithValue("@p1", TextBox1.Text);
+            komut3.Parameters.AddWithValue("@p2", TextBox2.Text);
+            komut3.Parameters.AddWithValue("@p3", TextBox3.Text);
+            komut3.Parameters.AddWithValue("@p4", DropDownList1.SelectedValue);
+            komut3.ExecuteNonQuery();
+            bgl.baglanti().Close();
         }
     }
 }
