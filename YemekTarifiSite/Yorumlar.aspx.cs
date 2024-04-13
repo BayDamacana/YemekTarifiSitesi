@@ -14,7 +14,7 @@ namespace YemekTarifiSite
         protected void Page_Load(object sender, EventArgs e)
         {
             Panel2.Visible =false;
-            Panel4.Visible = !false;
+            Panel4.Visible =false;
 
             //onaylı yorumlar listesi
           SqlCommand komut = new SqlCommand("select * from Tbl_Yorumlar where yorumonay=1", bgl.baglanti());
@@ -36,17 +36,17 @@ namespace YemekTarifiSite
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Panel2.Visible=!false;
+            Panel2.Visible=false;
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Panel4.Visible=!true;
+            Panel4.Visible=true;
         }
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-            Panel4.Visible=!false;
+            Panel4.Visible=false;
         }
     }
 }

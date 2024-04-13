@@ -91,7 +91,9 @@
     <Content Include="Admin.aspx" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="icons\okundu.png" />
+    <Content Include="icons\sec.png" />
     <Content Include="KategoriDuzen.aspx">
       <BrowseToURL>~/KategoriAdminDetay.aspx</BrowseToURL>
     </Content>
@@ -142,6 +144,13 @@
     </Compile>
     <Compile Include="GununYemegi.aspx.designer.cs">
       <DependentUpon>GununYemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkimizda.aspx.cs">
       <DependentUpon>Hakkimizda.aspx</DependentUpon>

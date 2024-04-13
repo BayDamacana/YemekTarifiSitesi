@@ -86,7 +86,7 @@
                         <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Mesajlar.aspx">İletişim</a></strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Günün Yemeği</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="GununYemegiAdmin.aspx">Günün Yemeği</a></strong></em></td>
                     </tr>
                     <tr>
                         <td class="auto-style12"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Öneriler</strong></em></td>
