@@ -17,6 +17,8 @@ namespace YemekTarifiSite
             Panel2.Visible = false;
             Panel5.Visible = false;
 
+             if(Page.IsPostBack == false)
+            {
             //yemek listesi 
             SqlCommand komut = new SqlCommand("SELECT * FROM Tbl_Yemekler", bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();
@@ -33,6 +35,7 @@ namespace YemekTarifiSite
             DropDownList1.DataValueField = "Kategoriid";
             DropDownList1.DataSource = dr2;
             DropDownList1.DataBind();
+            }
 
 
         }
