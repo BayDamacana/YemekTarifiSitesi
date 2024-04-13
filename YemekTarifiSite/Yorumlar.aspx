@@ -45,7 +45,7 @@
                 <td class="auto-style22"><em><strong>
                     <asp:Button ID="Button2" runat="server" CssClass="auto-style20" Height="30px" Text="-" Width="30px" OnClick="Button2_Click" />
                     </strong></em></td>
-                <td class="auto-style19"><strong>YORUM LİSTESİ</strong></td>
+                <td class="auto-style19"><strong>Onaylı YORUM LİSTESİ</strong></td>
             </tr>
         </table>
     </asp:Panel>
@@ -68,5 +68,38 @@
                 </ItemTemplate>
             </asp:DataList>
     </asp:Panel>
-    <br />
+       <asp:Panel ID="Panel3" runat="server" CssClass="auto-style13">
+       <table class="auto-style14">
+           <tr>
+               <td class="auto-style21"><em><strong>
+                   <asp:Button ID="Button3" runat="server" CssClass="auto-style18" Height="30px" Text="+" Width="30px" OnClick="Button3_Click" />
+                   </strong></em></td>
+               <td class="auto-style22"><em><strong>
+                   <asp:Button ID="Button4" runat="server" CssClass="auto-style20" Height="30px" Text="-" Width="30px" OnClick="Button4_Click" />
+                   </strong></em></td>
+               <td class="auto-style19">Onaysız<strong> YORUM LİSTESİ</strong></td>
+           </tr>
+       </table>
+   </asp:Panel>
+
+        <asp:Panel ID="Panel4" runat="server">
+        <asp:DataList ID="DataList2" runat="server" Width="428px">
+            <ItemTemplate>
+                <table class="auto-style14">
+                    <tr>
+                        <td class="auto-style17">
+                            <asp:Label ID="Label1" runat="server" CssClass="auto-style16" Text='<%# Eval("YorumAdSoyad") %>'></asp:Label>
+                        </td>
+                        <td class="auto-style15">
+                            <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/icons/sil.png" Width="50px" />
+                        </td>
+                        <td class="auto-style15">
+                          <a href="YorumDetay.aspx?Yorumid=<%#Eval("Yorumid") %>">  <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icons/update.png" Width="50px" /></a>
+                        </td>
+                    </tr>
+                </table>
+            </ItemTemplate>
+        </asp:DataList>
+</asp:Panel>
+
 </asp:Content>
