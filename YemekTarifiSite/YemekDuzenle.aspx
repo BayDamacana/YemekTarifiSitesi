@@ -19,6 +19,10 @@
         .auto-style17 {
             font-size: large;
         }
+        .auto-style18 {
+            font-size: medium;
+            margin-left: 0px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -55,7 +59,15 @@
         <tr>
             <td class="auto-style14"></td>
             <td class="auto-style16">
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style17" Height="34px" OnClick="Button1_Click" Text="KAYDET" Width="136px" />
+                <asp:Button ID="Button1" runat="server" CssClass="auto-style17" Height="34px" OnClick="Button1_Click" Text="KAYDET" Width="154px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style14">&nbsp;</td>
+            <td class="auto-style16">
+                <strong><em>
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style18" OnClick="Button2_Click" Text="GÜNÜN YEMEĞİNi SEÇ" Width="225px" />
+                </em></strong>
             </td>
         </tr>
     </table>
