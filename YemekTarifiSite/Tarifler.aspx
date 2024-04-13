@@ -15,16 +15,9 @@
             width: 36px;
             height: 46px;
         }
-        .auto-style18 {
-            font-weight: bold;
-        }
         .auto-style22 {
             width: 24px;
             height: 46px;
-        }
-        .auto-style20 {
-            font-weight: bold;
-            margin-left: 0px;
         }
         .auto-style19 {
             text-align: center;
@@ -40,12 +33,8 @@
     <asp:Panel ID="Panel1" runat="server" CssClass="auto-style13" Height="48px">
         <table class="auto-style14">
             <tr>
-                <td class="auto-style21"><em><strong>
-                    <asp:Button ID="Button1" runat="server" CssClass="auto-style18" Height="30px" Text="+" Width="30px" OnClick="Button1_Click" />
-                    </strong></em></td>
-                <td class="auto-style22"><em><strong>
-                    <asp:Button ID="Button2" runat="server" CssClass="auto-style20" Height="30px" Text="-" Width="30px" OnClick="Button2_Click" />
-                    </strong></em></td>
+                <td class="auto-style21">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
                 <td class="auto-style19">Tarif Önerileri</td>
             </tr>
         </table>
@@ -61,7 +50,7 @@
                         <td class="auto-style15">
                             &nbsp;</td>
                         <td class="auto-style23">
-                            <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icons/oneri.png" Width="52px" /></a> 
+                           <a href="TarifOnerDetay.aspx?Tarifid=<%#Eval("Tarifid") %>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icons/oneri.png" Width="52px" /></a> 
                         </td>
                     </tr>
                 </table>
