@@ -34,13 +34,39 @@
         <table class="auto-style14">
             <tr>
                 <td class="auto-style21">&nbsp;</td>
-                <td class="auto-style22">&nbsp;</td>
-                <td class="auto-style19">Tarif Önerileri</td>
+                <td class="auto-style22">&nbsp; &nbsp;</td>
+                <td class="auto-style19">&nbsp; Onaysız Tarif Önerileri</td>
             </tr>
         </table>
     </asp:Panel>
             <asp:Panel ID="Panel2" runat="server">
-        <asp:DataList ID="DataList1" runat="server" Width="428px">
+        <asp:DataList ID="DataList1" runat="server" Width="428px" Height="249px">
+            <ItemTemplate>
+                <table class="auto-style14">
+                    <tr>
+                        <td class="auto-style17">
+                            <asp:Label ID="Label1" runat="server" CssClass="auto-style16" Text='<%# Eval("TarifAd") %>'></asp:Label>
+                        </td>
+                        <td class="auto-style15">
+                            &nbsp;</td>
+                        <td class="auto-style23">
+                           <a href="TarifOnerDetay.aspx?Tarifid=<%#Eval("Tarifid") %>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icons/oneri.png" Width="52px" /></a> 
+                        </td>
+                    </tr>
+                </table>
+            </ItemTemplate>
+        </asp:DataList>
+</asp:Panel>
+    <asp:Panel ID="Panel3" runat="server" CssClass="auto-style13" Height="48px">
+    <table class="auto-style14">
+        <tr>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style22">&nbsp; &nbsp;</td>
+            <td class="auto-style19">&nbsp; Onaylı Tarif Önerileri</td>
+        </tr>
+    </table>
+</asp:Panel>
+            <asp:DataList ID="DataList2" runat="server" Width="428px" Height="249px">
             <ItemTemplate>
                 <table class="auto-style14">
                     <tr>
