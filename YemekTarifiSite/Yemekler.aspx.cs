@@ -70,6 +70,13 @@ namespace YemekTarifiSite
             komut3.Parameters.AddWithValue("@p4", DropDownList1.SelectedValue);
             komut3.ExecuteNonQuery();
             bgl.baglanti().Close();
+
+
+            //kategori saısı arttırma
+            SqlCommand komut4 = new SqlCommand("update tbl_katagoriler set kategoriadet=kategoriadet+1 where kategoriid=@p1", bgl.baglanti());
+            komut4.Parameters.AddWithValue("@p1", DropDownList1.SelectedValue);
+            komut4.ExecuteNonQuery();
+            bgl.baglanti().Close();
         }
     }
 }
