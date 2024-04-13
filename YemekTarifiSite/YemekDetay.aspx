@@ -17,6 +17,20 @@
         .auto-style8 {
             text-align: right;
         }
+        .auto-style9 {
+            width: 624px;
+        }
+        .auto-style10 {
+            width: 403px;
+            height: 127px;
+        }
+        .auto-style11 {
+            height: 109px;
+        }
+        .auto-style12 {
+            width: 405px;
+            height: 113px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -27,9 +41,9 @@
     <p>
         <asp:DataList ID="DataList2" runat="server">
             <ItemTemplate>
-                <table class="auto-style4">
+                <table class="auto-style12">
                     <tr>
-                        <td>
+                        <td class="auto-style11">
                             <asp:Label ID="Label4" runat="server" Text='<%# Eval("YorumAdSoyad") %>' CssClass="auto-style6"></asp:Label>
                         </td>
                     </tr>
@@ -47,32 +61,32 @@
 
     <div class="auto-style7">YORUM PANELİ</div>
     <asp:Panel ID="Panel1" runat="server">
-        <table class="auto-style4">
+        <table class="auto-style10">
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style8"><strong>Ad Soyad:</strong></td>
-                <td>
+                <td class="auto-style9">
                     <asp:TextBox ID="TextBox1" runat="server" Width="261px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style8"><strong>Mail:</strong></td>
-                <td>
+                <td class="auto-style9">
                     <asp:TextBox ID="TextBox2" runat="server" Width="261px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style8"><strong>YORUMUNUZ</strong></td>
-                <td>
+                <td class="auto-style9">
                     <asp:TextBox ID="TextBox3" runat="server" Height="94px" TextMode="MultiLine" Width="259px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>
+                <td class="auto-style9">
                     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="GÖNDER" />
                 </td>
             </tr>

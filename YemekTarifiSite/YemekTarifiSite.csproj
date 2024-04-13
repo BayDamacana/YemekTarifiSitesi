@@ -92,6 +92,7 @@
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Global.asax" />
     <Content Include="GununYemegiAdmin.aspx" />
+    <Content Include="HakkimizdaAdmin.aspx" />
     <Content Include="icons\okundu.png" />
     <Content Include="icons\oneri.png" />
     <Content Include="icons\sec.png" />
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="Hakkimizda.aspx.designer.cs">
       <DependentUpon>Hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HakkimizdaAdmin.aspx.cs">
+      <DependentUpon>HakkimizdaAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HakkimizdaAdmin.aspx.designer.cs">
+      <DependentUpon>HakkimizdaAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Iletisim.aspx.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>

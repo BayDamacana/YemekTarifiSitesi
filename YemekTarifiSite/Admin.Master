@@ -92,7 +92,7 @@
                         <td class="auto-style12"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Tarifler.aspx">Öneriler</a></strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Hakkımızda</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="HakkimizdaAdmin.aspx"> Hakkımızda</a></strong></em></td>
                     </tr>
                 </table>
             <br />
