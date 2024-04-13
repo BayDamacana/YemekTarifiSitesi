@@ -47,6 +47,7 @@ namespace YemekTarifiSite
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+        
             SqlCommand komut = new SqlCommand("UPDATE Tbl_Yemekler set YemekAd=@p1,YemekMalzeme=@p2,YemekTarif=@p3,Kategoriid=@p4 WHERE Yemekid=@p5", bgl.baglanti());
             komut.Parameters.AddWithValue("@p1", TextBox1.Text);
             komut.Parameters.AddWithValue("@p2", TextBox2.Text);

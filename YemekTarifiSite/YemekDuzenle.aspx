@@ -23,6 +23,11 @@
             font-size: medium;
             margin-left: 0px;
         }
+        .auto-style19 {
+            color: #000000;
+            height: 37px;
+            text-align: right;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -57,7 +62,13 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style14"></td>
+            <td class="auto-style19"><strong>RESİM</strong>:</td>
+            <td class="auto-style16">
+                <asp:FileUpload ID="FileUpload1" runat="server" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style14">&nbsp;</td>
             <td class="auto-style16">
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style17" Height="34px" OnClick="Button1_Click" Text="KAYDET" Width="154px" />
             </td>
