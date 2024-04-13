@@ -58,7 +58,7 @@
                         <td class="auto-style15">
                             &nbsp;</td>
                         <td class="auto-style15">
-                            <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icons/okundu.png" Width="52px" />
+                         <a href="MesajDetay.aspx?Mesajid=<%#Eval("Mesajid") %>">  <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icons/okundu.png" Width="52px" /></a> 
                         </td>
                     </tr>
                 </table>
