@@ -42,7 +42,7 @@
         <tr>
             <td class="auto-style14">&nbsp;</td>
             <td>
-                <asp:Button ID="BtnOnayla" runat="server" Text="ONAYLA" />
+                <asp:Button ID="BtnOnayla" runat="server" OnClick="BtnOnayla_Click" Text="ONAYLA" />
             </td>
         </tr>
     </table>
