@@ -60,7 +60,7 @@
        
         <div style="margin-left:300px; background-color: #66FFFF;" class="auto-style4">
            
-            <asp:Image ID="Image1" runat="server" Height="152px" ImageUrl="~/resimler/Admin.png" Width="707px" />
+            <asp:Image ID="Image1" runat="server" Height="152px" ImageUrl="~/resimler/kontrol.png" Width="707px" />
            
         </div>
         <div style="margin-left:300px; width:700px; height:20px;">&nbsp</div>
@@ -83,7 +83,7 @@
                         <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Yorumlar.aspx">Yorumlar</a></strong></em></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">İletişim</strong></em></td>
+                        <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF"><a href="Mesajlar.aspx">İletişim</a></strong></em></td>
                     </tr>
                     <tr>
                         <td class="auto-style8"><em><strong style="border-top-style: solid; border-width: thin; border-color: #FFFFFF">Günün Yemeği</strong></em></td>

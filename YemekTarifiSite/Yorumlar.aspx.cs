@@ -13,8 +13,8 @@ namespace YemekTarifiSite
         sqlsinif bgl = new sqlsinif();
         protected void Page_Load(object sender, EventArgs e)
         {
-            Panel2.Visible = false;
-            Panel4.Visible = false;
+            Panel2.Visible =false;
+            Panel4.Visible = !false;
 
             //onaylı yorumlar listesi
           SqlCommand komut = new SqlCommand("select * from Tbl_Yorumlar where yorumonay=1", bgl.baglanti());
@@ -23,25 +23,25 @@ namespace YemekTarifiSite
             DataList1.DataBind();
 
             //onaysız yorumlar listesi
-            SqlCommand komut2 = new SqlCommand("select * from Tbl_Yorumlar where yorumonay=0", bgl.baglanti());
-            SqlDataReader dr2 = komut.ExecuteReader();
+            SqlCommand komut2 = new SqlCommand("Select * From Tbl_Yorumlar where yorumonay=0", bgl.baglanti());
+            SqlDataReader dr2 = komut2.ExecuteReader();
             DataList2.DataSource = dr2;
             DataList2.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Panel2.Visible=true;
+            Panel2.Visible=true;    
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Panel2.Visible=false;
+            Panel2.Visible=!false;
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Panel4.Visible=true;
+            Panel4.Visible=!true;
         }
 
         protected void Button4_Click(object sender, EventArgs e)
